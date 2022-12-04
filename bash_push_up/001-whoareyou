@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo "Hi 😁"
+sleep 1
+echo "May i know you?"
+
+sleep 2
+
+echo "Your first name?"
+
+read first_name
+sleep 1
+
+echo "Your last_name?"
+
+read last_name
+
+sleep 1
+
+echo "Nationality"
+
+read nationality
+
+sleep 1
+
+echo "Thanks for your time $first_name $last_name"
+
+echo "Goodbye👋"
