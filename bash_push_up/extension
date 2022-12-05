@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Input file1 name"
+read f1
+echo "Input file2 name"
+read f2                                                         echo "Input file3 name"
+read f3
+echo "Input file4 name"
+read f4
+echo "Input file5 name"
+read f5
+
+
+touch $f1.olu $f2.olu $f3.olu $f4.olu $f5.olu

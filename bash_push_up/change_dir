@@ -1,0 +1,12 @@
+#!/bin/bash
+
+police=/root
+
+if [ -d $police ]; 
+then
+	echo "exist"
+	cd $police
+
+	ls
+else 
+	echo "No"

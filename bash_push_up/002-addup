@@ -5,7 +5,6 @@ sleep 1
 echo "Provide two numbers and i will sum it for you. Easy right?"
 echo "Input Number_1"
 read num1
-sleep 1
 echo "Input Number_2"
 read num2
 
@@ -13,9 +12,9 @@ num3=$(( num1 + num2 ))
 
 if [ $num3 -gt 20 ];
 then
-	echo "Weldone"
+	echo "$num3"
 else
-	echo "Do more"
+	echo "You can add more digits"
 	read num4
 	echo $(( $num4 + $num3 ))
 fi

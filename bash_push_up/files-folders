@@ -1,0 +1,27 @@
+#!/bin/bash
+
+echo "Input file1 name"
+read f1
+echo "Input file2 name"
+read f2
+echo "Input file3 name"
+read f3
+echo "Input file4 name"
+read f4
+echo "Input file5 name"
+read f5
+
+touch $f1 $f2 $f3 $f4 $f5
+
+echo "Input dir"
+read d1
+echo "Input dir2"
+read d2                                                        
+echo "Input dir3"
+read d3
+echo "Input dir4"
+read d4
+echo "Input dir5"
+read d5
+
+mkdir $d1 $d2 $d3 $d4 $d5
